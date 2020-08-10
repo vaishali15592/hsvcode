@@ -58,6 +58,7 @@
     width: 130px;
     height: 3px; 
     border: 1px solid grey;
+    background-color: grey;
 }
 .group{
     display: flex;
