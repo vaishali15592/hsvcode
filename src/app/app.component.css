@@ -1,0 +1,126 @@
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    padding: 2rem 0rem;
+}
+.outer-block{
+    display: flex;
+}
+.blocks {
+    padding: 1rem 1rem;
+    color: grey;
+    width: 91px;
+    border-radius: 11%;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid grey;
+}
+.blocks-inner{
+    height: 50%;
+    border-radius: 6%;
+    width: 50px;
+}
+.blocks-line{
+    background-color: grey;
+    width: 3px;
+    height: 40px;
+}
+.blocks-circle{
+    text-align: center;
+    color: grey;
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid grey;
+}
+.addSingle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.show{
+    display: flex;
+    width: 100%;
+}
+.hide{
+    display: none;
+}
+.blocks-horizontal-line{
+    width: 130px;
+    height: 3px; 
+    border: 1px solid grey;
+}
+.group{
+    display: flex;
+    justify-content: space-between;
+    width: 157px;
+}
+ .sideOne{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sideTwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.blocks-2circle{
+    text-align: center;
+    color: grey;
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;  
+}
+.green{
+    background-color: green;
+    color: white;
+}
+.red{
+    background-color: red;
+    color: white;
+}
+.deleteCircle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 37px;
+}
+.imageStyle{
+    width: 26px;
+    height: 26px;
+}
+.blocks-delete{
+    display: flex;
+    color: grey;
+    align-items: center;
+    width: 91px;
+    border-radius: 11%;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid grey;
+}
+.blocks-inner-delete{
+    height: 50%;
+    border-radius: 6%;
+    width: 50px;
+    margin-left: 22px;
+}
